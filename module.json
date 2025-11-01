@@ -1,0 +1,73 @@
+{
+  "id": "augmenterplaytest",
+  "title": "AugmenterPlaytest",
+  "version": "1.0.0.0",
+  "manifest": "https://github.com/pocketlint60/augmenter-playtest/releases/latest/download/module.json",
+  "download": "https://github.com/pocketlint60/worldweep-custom-content/releases/download/1.0.0.0/augmenter-playtest.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "augmenterplaytest": {
+      "pf2e-homebrew": {
+        "equipmentTraits": {
+          "integrated": {
+            "label": "Integrated",
+            "description": "Integrated items, also known as augmentations, are the ones which an Augmenter uses for their synergies."
+          }
+        },
+        "featTraits": {
+          "augmenter": {
+            "label": "Augmenter",
+            "description": "This indicates abilities from the augmenter class."
+          },
+          "synergy": {
+            "label": "Synergy",
+            "description": "Actions with the synergy trait are combat techniques used by augmenters which require the use of their integrated items. If a synergy includes the activation of an item, that item must be an augmentation."
+          }
+        },
+        "weaponTraits": {
+          "integrated": {
+            "label": "Integrated",
+            "description": "Integrated items, also known as augmentations, are the ones which an Augmenter uses for their synergies."
+          }
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "augmenter-features",
+      "label": "Augmenter Features",
+      "path": "packs/augmenter-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "augmenter-journals",
+      "label": "Augmenter Journals",
+      "path": "packs/augmenter-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "authors": [
+    {
+      "name": "Ethan Hoffman",
+      "url": "https://ko-fi.com/pocketlint60",
+      "discord": "pocketlint60",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/pocketlint60/augmenter-playtest",
+  "description": ""
+}
